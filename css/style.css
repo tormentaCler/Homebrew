@@ -1,0 +1,251 @@
+@charset "UTF-8";
+@font-face {
+    font-family: t20;
+    src: url(../Fonte/Tormenta.ttf);
+}
+
+
+            @font-face {
+                font-family: 'tormenta20';
+                src: url('/static/styles/Fontes/Tormenta20.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            
+
+
+            
+            @font-face {
+                font-family: 'tormenta20';
+                src: url('/static/styles/Fontes/Tormenta20.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'iowanOldStyleBold';
+                src: url('../Fonte/iowanoldstylebold.otf') format('opentype');
+                font-weight: normal;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'iowanOldStyleBoldItalic';
+                src: url('../Fonte/iowanoldstylebolditalic.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'iowanOldStyleRegular';
+                src: url('../Fonte/IowanOldStyleRegular.otf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            body {
+                
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+                background-color: white;
+            }
+
+            .bg_image {
+                background-image: url("/static/img/background.png");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .titulo {
+                background-image: url("/static/styles/Imagens/titulo.png");
+                background-repeat: no-repeat;
+
+                background-size: contain;
+                background-position: center;
+
+            }
+
+            .box {
+                display: table;
+                border: 20px solid black;
+                border-image: url("/assets/box_2.png") 4% repeat;
+                background-color: #B6292E;
+                background-clip: padding-box, border-box;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left:10px;
+                padding-right:10px;
+            }
+
+            .btn-primary{
+            font-family: 'iowanOldStyleRegular';
+                background-color:#3f0f12;
+                border-color:#3f0f12;
+                color:#f0dc82;
+            }
+
+            dd{
+                font-family: 'iowanOldStyleRegular';
+                color: white;
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            dt{
+                font-family: 'iowanOldStyleBold';
+                color: white;
+                font-weight: normal;
+                font-style: normal;
+                font-size: 110%;
+                font-variant: small-caps;
+            }
+
+            h2 {
+                font-family: 'iowanOldStyleBold';
+                font-weight: normal;
+                color: #f0dc82;
+                font-variant: small-caps;
+            }
+
+            h5 {
+                font-family: 'iowanOldStyleBold';
+                font-weight: normal;
+                color: #f0dc82;
+                font-variant: small-caps;
+            }
+
+            h1 {
+                font-family: 't20';
+                font-weight: normal;
+                color: #d13235
+            }
+
+            .enhc {
+                font-family: 'iowanOldStyleBold';
+                font-weight: normal;
+                color: #d13235;
+                font-variant: small-caps;
+            }
+
+            p{
+                font-family: 'iowanOldStyleRegular';
+                color: black;
+                font-weight: normal;
+                font-style: normal;
+                text-align: justify;
+                text-justify: inter-word;
+            }
+
+.linha{
+    border: #3f0f12 solid 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titleDis {
+    text-align: center;
+    position: relative; /* Garante que o posicionamento absoluto do h1 seja relativo a esta div */
+}
+
+.titleDis h1 {
+    position: absolute; /* Define o posicionamento absoluto para o h1 */
+    top: 0; /* Ajusta a posição do h1 em relação ao topo da div */
+    left: 0; /* Ajusta a posição do h1 em relação à esquerda da div */
+    width: 100%; /* Faz o h1 ocupar toda a largura da div */
+    margin: 0; /* Remove margens padrão do h1 */
+    padding: 0; /* Remove preenchimento padrão do h1 */
+    margin-top: 20px;
+    color: white;
+}
+
+.titleDis img {
+    height: auto; /* Mantém a proporção da imagem */
+
+}
+
+.aprebold{
+    font-weight: bold;
+    font-family: 'iowanOldStyleRegular';
+}
+
+.apresen{
+    width: 100%;
+    font-family: 'iowanOldStyleRegular';
+}
+
+.textini {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'iowanOldStyleRegular';
+}
+
+.apresen, .admi {
+    flex: 1;
+    padding: 0 10px; /* Adicione espaçamento interno conforme necessário */
+}
+
+.neg{
+    font-family: t20;
+    font-size: 60px;
+    color:#d13235;
+}
+
+.admtitle{
+    font-family: t20;
+    font-size: 35px;
+    color:#d13235;
+}
+
+.admi{
+    width: 100%;
+    font-family: 'iowanOldStyleRegular';
+    margin-left: 10px;
+}
+
+.pod{
+    margin-left: 10px;
+}
+
+.podtitle{
+    font-family: t20;
+    font-size: 35px;
+    color:#d13235;
+}
+
+.titlepod{
+    font-family: t20;
+    color:#d13235;
+    font-size: 25px;
+}
+
+.subtitlepod{
+    font-size: 13px;
+    margin-top: -10px;
+    font-family: iowanOldStyleBoldItalic;
+}
+
+.pre{
+    font-size: 16px;
+    margin-top: -10px;
+    font-family: iowanOldStyleRegular;
+    font-style: italic;
+}
+
+.enhc2 {
+    font-family: 'iowanOldStyleBold';
+    font-weight: bold;
+    color: #d13235;
+    font-variant: small-caps;
+}
+
+.titlepod2{
+    font-family: 'iowanOldStyleBold';
+    font-weight: normal;
+    color: #f0dc82;
+    font-variant: small-caps;
+    font-size: 21px;
+}
